@@ -86,17 +86,14 @@ function ExamplesNavbar() {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-examples-navbar"
-                target="_blank"
-              >
+              <NavLink href="/index" target="_blank">
                 <i className="nc-icon nc-book-bookmark" /> About us
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://twitter.com/CreativeTim?ref=creativetim"
+                href="https://twitter.com/"
                 target="_blank"
                 title="Follow us on Twitter"
               >
@@ -107,7 +104,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="https://www.facebook.com/"
                 target="_blank"
                 title="Like us on Facebook"
               >
@@ -118,7 +115,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                href="https://www.instagram.com/"
                 target="_blank"
                 title="Follow us on Instagram"
               >
@@ -129,7 +126,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.github.com/CreativeTimOfficial?ref=creativetim"
+                href="https://www.github.com/"
                 target="_blank"
                 title="Star on GitHub"
               >

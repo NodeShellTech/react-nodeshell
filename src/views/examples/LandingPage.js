@@ -157,9 +157,14 @@ function LandingPage() {
         </div>
         <div className="section section-dark text-center">
           <Container>
-            <h2 className="title">Let's talk about us</h2>
-            <Row>
-              <Col md="4">
+            <h2 className="title">Our Partners</h2>
+            <Row
+              style={{
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              {/* <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -209,29 +214,34 @@ function LandingPage() {
                     </Button>
                   </CardFooter>
                 </Card>
-              </Col>
+              </Col> */}
               <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.saumy0660.ampray&hl=en_IN&gl=US"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <img
                         alt="..."
-                        src={require("assets/img/faces/joe-gardner-2.jpg")}
+                        src={require("assets/img/logos/ampray.jpg")}
                       />
                     </a>
                   </div>
                   <CardBody>
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Sophie West</CardTitle>
-                        <h6 className="card-category">Designer</h6>
+                        <CardTitle tag="h4">Ampray</CardTitle>
+                        <h6 className="card-category">
+                          Raw Material Manufacturer
+                        </h6>
                       </div>
                     </a>
                     <p className="card-description text-center">
-                      A group becomes a team when each member is sure enough of
-                      himself and his contribution to praise the skill of the
-                      others. No one can whistle a symphony. It takes an
-                      orchestra to play it.
+                      Innovating tomorrow's technology today, we specialize in
+                      the seamless integration of cutting-edge electronics
+                      modules and premium raw materials manufacturing.
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
@@ -262,7 +272,7 @@ function LandingPage() {
                   </CardFooter>
                 </Card>
               </Col>
-              <Col md="4">
+              {/* <Col md="4">
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -313,7 +323,7 @@ function LandingPage() {
                     </Button>
                   </CardFooter>
                 </Card>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </div>
